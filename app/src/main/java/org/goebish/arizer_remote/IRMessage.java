@@ -1,4 +1,4 @@
-package com.zoser.app.powermote;
+package org.goebish.arizer_remote;
 
 public class IRMessage
 {

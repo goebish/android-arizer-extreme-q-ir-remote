@@ -11,33 +11,11 @@
         android:layout_height="match_parent"
         android:layout_centerHorizontal = "true"
         android:orientation="vertical"
-        android:weightSum="5"
+        android:weightSum="6"
         android:layout_margin="5dp"
     >
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:weightSum="1"
-            >
 
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="POWER ALL"
-                android:id="@+id/id_Button_ALL"
-                android:background="@drawable/button_selector_red"
-                android:src="@drawable/icon_09"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter"
-                android:layout_margin="5dp"
-                android:textAlignment="viewEnd"
-                android:textColor="@color/remote_text"
-                />
 
-        </LinearLayout>
     <LinearLayout
         android:id="@+id/id_Layout_Row_01"
         android:layout_width="match_parent"
@@ -79,17 +57,27 @@
             >
 
         </LinearLayout>
-    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/id_Layout_Row_05"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
 
-    <Button
-        android:id="@+id/id_Button_6"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="128dp"
-        android:layout_weight="1"
-        android:text="NINTENDO SWITCH"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/id_Layout_Row_06"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+        </LinearLayout>
+    </LinearLayout>
 
 
 </RelativeLayout>

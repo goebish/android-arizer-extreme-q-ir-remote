@@ -29,7 +29,7 @@
             android:layout_weight="0.55"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/icon_02"
+            android:src="@drawable/power"
             />
 
         <TextView
@@ -39,7 +39,7 @@
             android:gravity="center_horizontal"
             android:layout_alignParentBottom="true"
             android:layout_weight="0.2"
-            android:text="VOLUME UP"
+            android:text="POWER"
             android:textSize="12sp"
             android:textColor="@color/remote_text"/>
     </LinearLayout>
