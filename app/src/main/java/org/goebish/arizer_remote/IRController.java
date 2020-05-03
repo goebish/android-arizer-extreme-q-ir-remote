@@ -37,6 +37,18 @@ public class IRController extends Thread
         }
     }
 
+    public boolean hasIrEmitter()
+    {
+        if(_irManager != null)
+        {
+            if(_irManager.hasIrEmitter())
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     private void executeMessage(IRMessageRequest request)
     {
         if(_enabled)
